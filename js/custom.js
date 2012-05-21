@@ -8,7 +8,7 @@ $(document).ready(function(){
     event.preventDefault();
   });
 
-  var env = 'dev';
+  var env = 'prod';
 
   var urls = {
     dev:  'http://localhost:3000/posts.json?callback=parseComments',
