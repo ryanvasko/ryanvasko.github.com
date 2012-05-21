@@ -40,7 +40,7 @@
                 <a href="#" data-scrollto='rsvp'>RSVP</a>
               </li>
               <li class="scroll-to-link">
-                <a href="#" data-scrollto='guestbook'>Guest Book</a>
+                <a href="#" data-scrollto='guestbook'>Guestbook</a>
               </li>
               <li class="scroll-to-link">
                 <a href="#" data-scrollto='photos'>Photos</a>
@@ -101,6 +101,33 @@
     <div class='container section' id='guestbook'>
       <div class="page-header">
         <h1>Guestbook</h1>
+      </div>
+
+      <div class="span4">
+        <form class="form-horizontal" id="sign-guestbook">
+          <fieldset>
+            <div class="control-group">
+              <label class="control-label" for="textarea">
+                Sign our guestbook!
+              </label>
+              <div class="controls">
+                <textarea class="input-xlarge" id="textarea" rows="5" name="post[comment]"></textarea>
+              </div>
+            </div>
+            <div class="form-actions">
+              <button type="submit" class="btn btn-primary">Sign</button>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+
+      <div class="span1">
+        &nbsp;
+      </div>
+
+      <div class="span5">
+        <table id="posts" class="table table-striped">
+        </table>
       </div>
     </div>
 
